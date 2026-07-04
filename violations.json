@@ -1,0 +1,30 @@
+[
+    {
+        "timestamp": "2026-07-03 11:41:07.411185",
+        "workers_detected": 1,
+        "violations": [
+            "Worker 1 missing gloves",
+            "Worker 1 missing vest",
+            "Worker 1 missing boots",
+            "Worker 1 missing goggles"
+        ]
+    },
+    {
+        "timestamp": "2026-07-03 11:41:28.653099",
+        "workers_detected": 1,
+        "violations": [
+            "Worker 1 missing gloves",
+            "Worker 1 missing boots",
+            "Worker 1 missing goggles"
+        ]
+    },
+    {
+        "timestamp": "2026-07-03 11:41:43.523078",
+        "workers_detected": 1,
+        "violations": [
+            "Worker 1 missing helmet",
+            "Worker 1 missing gloves",
+            "Worker 1 missing goggles"
+        ]
+    }
+]
