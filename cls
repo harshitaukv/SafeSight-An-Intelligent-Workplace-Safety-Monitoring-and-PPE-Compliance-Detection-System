@@ -1,0 +1,14 @@
+artifact_uri: file:A:/PPE/runs/mlflow/100327870232712880/2e0350d002b64ea1a7cbacd2fa48cef5/artifacts
+end_time: 1782998077309
+entry_point_name: ''
+experiment_id: '100327870232712880'
+lifecycle_stage: active
+run_id: 2e0350d002b64ea1a7cbacd2fa48cef5
+run_name: train_m
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1782932911460
+status: 3
+tags: []
+user_id: Ayush
