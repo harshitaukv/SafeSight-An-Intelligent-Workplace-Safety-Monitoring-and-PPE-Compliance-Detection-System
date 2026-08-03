@@ -14,8 +14,6 @@ An end-to-end **computer vision system** that detects PPE compliance in construc
 
 </div>
 
-https://drive.google.com/file/d/1iPd65zUjqJyKQoGVGnYFKQ0CZrW_H_n0/view?usp=sharing
-
 
 ## 📊 Model Performance
 
