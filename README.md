@@ -724,45 +724,8 @@ def log_detection_results(image_path, detections, workers, violations):
 
 ---
 
-## 🤝 Contributing
-
-We welcome contributions! Here's how:
-
-1. **Fork** the repository
-2. **Create** a feature branch (`git checkout -b feature/amazing-feature`)
-3. **Commit** your changes (`git commit -m 'Add amazing feature'`)
-4. **Push** to the branch (`git push origin feature/amazing-feature`)
-5. **Open** a Pull Request
-
----
-
 ## 📝 License
 
 This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
-
----
-
-## 🙋 Support & Contact
-
-- 📧 **Email**: harshitaukv@example.com
-- 🐙 **GitHub Issues**: [Report a bug](https://github.com/harshitaukv/SafeSight-An-Intelligent-Workplace-Safety-Monitoring-and-PPE-Compliance-Detection-System/issues)
-- 💬 **Discussions**: [Join community](https://github.com/harshitaukv/SafeSight-An-Intelligent-Workplace-Safety-Monitoring-and-PPE-Compliance-Detection-System/discussions)
-
----
-
-## 🎉 Acknowledgments
-
-- **YOLO Community** - Ultralytics for YOLOv8
-- **LangChain** - For RAG & LLM orchestration
-- **Groq** - For fast LLM inference
-- **FAISS** - Facebook's vector search library
-
----
-
-<div align="center">
-
-**⭐ If you found this project helpful, please give it a star! ⭐**
-
-Made with ❤️ by [Harshita Sharma](https://github.com/harshitaukv)
 
 </div>
