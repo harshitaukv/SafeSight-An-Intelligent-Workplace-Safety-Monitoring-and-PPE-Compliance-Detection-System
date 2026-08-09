@@ -1,0 +1,44 @@
+# Safesight backend dependencies
+# Install with: pip install -r requirements.txt
+
+# --- Web framework / API ---
+fastapi
+uvicorn[standard]
+python-multipart          # required by FastAPI for File/UploadFile uploads
+pydantic
+
+# --- Auth ---
+pyjwt
+bcrypt
+
+# --- Database ---
+pymongo
+
+# --- Computer vision / PPE detection ---
+ultralytics                # YOLOv8
+torch                      # required by ultralytics
+numpy
+opencv-python               # video frame extraction for /detect-video
+
+# --- Document processing (RAG uploads) ---
+python-docx
+PyMuPDF                    # imported as `fitz`
+reportlab                  # PDF report generation
+
+# --- RAG / AI Assistant ---
+sentence-transformers       # MiniLM embeddings
+faiss-cpu                   # vector index
+langchain-core
+langgraph
+langchain-groq              # default provider — hosted, ~1-2s answers
+langchain-ollama            # local/offline fallback (SAFESIGHT_LLM_PROVIDER=ollama)
+python-dotenv               # reads the API key from a local .env file
+
+# --- Optional: other hosted LLM providers ---
+# Only needed if SAFESIGHT_LLM_PROVIDER is set to one of these. They are
+# imported lazily, so leaving them uninstalled costs nothing.
+# langchain-google-genai    # SAFESIGHT_LLM_PROVIDER=gemini
+# langchain-openai          # SAFESIGHT_LLM_PROVIDER=openai
+
+# --- Optional: legacy Streamlit prototype (app.py) ---
+streamlit
