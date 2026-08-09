@@ -1,0 +1,490 @@
+[
+    {
+        "timestamp": "2026-07-06 16:44:48.281298",
+        "workers_detected": 1,
+        "violations": [
+            "Worker 1 missing gloves",
+            "Worker 1 missing boots",
+            "Worker 1 missing goggles"
+        ]
+    },
+    {
+        "timestamp": "2026-07-06 16:45:02.364306",
+        "workers_detected": 1,
+        "violations": [
+            "Worker 1 missing boots",
+            "Worker 1 missing goggles"
+        ]
+    },
+    {
+        "timestamp": "2026-07-08 21:11:43.778829",
+        "workers_detected": 1,
+        "violations": [
+            "Worker 1 missing boots",
+            "Worker 1 missing goggles"
+        ]
+    },
+    {
+        "timestamp": "2026-07-08 21:51:21.999636",
+        "summary": {
+            "total_images": 1,
+            "total_workers": 1,
+            "safe_workers": 0,
+            "unsafe_workers": 1,
+            "helmet": 0,
+            "vest": 0,
+            "gloves": 0,
+            "boots": 1,
+            "goggles": 1,
+            "compliance": 60.0
+        },
+        "images": [
+            {
+                "timestamp": "2026-07-08 21:51:21.999021",
+                "image": "image17.jpg",
+                "workers": 1,
+                "unsafe": 1
+            }
+        ]
+    },
+    {
+        "timestamp": "2026-07-08 21:51:40.892553",
+        "summary": {
+            "total_images": 6,
+            "total_workers": 8,
+            "safe_workers": 1,
+            "unsafe_workers": 7,
+            "helmet": 1,
+            "vest": 0,
+            "gloves": 4,
+            "boots": 5,
+            "goggles": 7,
+            "compliance": 57.5
+        },
+        "images": [
+            {
+                "timestamp": "2026-07-08 21:51:38.866078",
+                "image": "image17.jpg",
+                "workers": 1,
+                "unsafe": 1
+            },
+            {
+                "timestamp": "2026-07-08 21:51:39.261645",
+                "image": "image49.jpg",
+                "workers": 1,
+                "unsafe": 1
+            },
+            {
+                "timestamp": "2026-07-08 21:51:39.687975",
+                "image": "image61.jpg",
+                "workers": 1,
+                "unsafe": 1
+            },
+            {
+                "timestamp": "2026-07-08 21:51:40.087771",
+                "image": "image85.jpg",
+                "workers": 1,
+                "unsafe": 0
+            },
+            {
+                "timestamp": "2026-07-08 21:51:40.495715",
+                "image": "image109.jpg",
+                "workers": 3,
+                "unsafe": 3
+            },
+            {
+                "timestamp": "2026-07-08 21:51:40.882446",
+                "image": "image138.jpg",
+                "workers": 1,
+                "unsafe": 1
+            }
+        ]
+    },
+    {
+        "timestamp": "2026-07-08 22:31:25.721864",
+        "summary": {
+            "total_images": 1,
+            "total_workers": 1,
+            "safe_workers": 1,
+            "unsafe_workers": 0,
+            "helmet": 0,
+            "vest": 0,
+            "gloves": 0,
+            "boots": 0,
+            "goggles": 0,
+            "compliance": 100.0
+        },
+        "images": [
+            {
+                "timestamp": "2026-07-08 22:31:25.720243",
+                "image": "image85.jpg",
+                "workers": 1,
+                "unsafe": 0
+            }
+        ]
+    },
+    {
+        "timestamp": "2026-07-08 22:32:03.316413",
+        "summary": {
+            "total_images": 8,
+            "total_workers": 10,
+            "safe_workers": 1,
+            "unsafe_workers": 9,
+            "helmet": 1,
+            "vest": 0,
+            "gloves": 6,
+            "boots": 7,
+            "goggles": 9,
+            "compliance": 54.0
+        },
+        "images": [
+            {
+                "timestamp": "2026-07-08 22:32:00.883181",
+                "image": "image17.jpg",
+                "workers": 1,
+                "unsafe": 1
+            },
+            {
+                "timestamp": "2026-07-08 22:32:01.257530",
+                "image": "image49.jpg",
+                "workers": 1,
+                "unsafe": 1
+            },
+            {
+                "timestamp": "2026-07-08 22:32:01.622908",
+                "image": "image61.jpg",
+                "workers": 1,
+                "unsafe": 1
+            },
+            {
+                "timestamp": "2026-07-08 22:32:01.967318",
+                "image": "image85.jpg",
+                "workers": 1,
+                "unsafe": 0
+            },
+            {
+                "timestamp": "2026-07-08 22:32:02.293001",
+                "image": "image109.jpg",
+                "workers": 3,
+                "unsafe": 3
+            },
+            {
+                "timestamp": "2026-07-08 22:32:02.623736",
+                "image": "image138.jpg",
+                "workers": 1,
+                "unsafe": 1
+            },
+            {
+                "timestamp": "2026-07-08 22:32:02.960430",
+                "image": "image163.jpg",
+                "workers": 1,
+                "unsafe": 1
+            },
+            {
+                "timestamp": "2026-07-08 22:32:03.316027",
+                "image": "image168.jpg",
+                "workers": 1,
+                "unsafe": 1
+            }
+        ]
+    },
+    {
+        "timestamp": "2026-07-08 22:39:37.920882",
+        "summary": {
+            "total_images": 1,
+            "total_workers": 5,
+            "safe_workers": 0,
+            "unsafe_workers": 5,
+            "helmet": 1,
+            "vest": 0,
+            "gloves": 5,
+            "boots": 0,
+            "goggles": 5,
+            "compliance": 56.0
+        },
+        "images": [
+            {
+                "timestamp": "2026-07-08 22:39:37.920512",
+                "image": "image536.jpg",
+                "workers": 5,
+                "unsafe": 5
+            }
+        ]
+    },
+    {
+        "timestamp": "2026-07-08 22:42:03.516754",
+        "summary": {
+            "total_images": 1,
+            "total_workers": 1,
+            "safe_workers": 1,
+            "unsafe_workers": 0,
+            "helmet": 0,
+            "vest": 0,
+            "gloves": 0,
+            "boots": 0,
+            "goggles": 0,
+            "compliance": 100.0
+        },
+        "images": [
+            {
+                "timestamp": "2026-07-08 22:42:03.516350",
+                "image": "image431.jpg",
+                "workers": 1,
+                "unsafe": 0
+            }
+        ]
+    },
+    {
+        "timestamp": "2026-07-08 22:42:24.236045",
+        "summary": {
+            "total_images": 12,
+            "total_workers": 23,
+            "safe_workers": 0,
+            "unsafe_workers": 23,
+            "helmet": 7,
+            "vest": 6,
+            "gloves": 16,
+            "boots": 18,
+            "goggles": 23,
+            "compliance": 39.13
+        },
+        "images": [
+            {
+                "timestamp": "2026-07-08 22:42:20.296763",
+                "image": "image1.jpeg",
+                "workers": 1,
+                "unsafe": 1
+            },
+            {
+                "timestamp": "2026-07-08 22:42:20.651117",
+                "image": "image6.jpeg",
+                "workers": 3,
+                "unsafe": 3
+            },
+            {
+                "timestamp": "2026-07-08 22:42:21.016939",
+                "image": "image10.jpeg",
+                "workers": 3,
+                "unsafe": 3
+            },
+            {
+                "timestamp": "2026-07-08 22:42:21.379924",
+                "image": "image40.jpg",
+                "workers": 1,
+                "unsafe": 1
+            },
+            {
+                "timestamp": "2026-07-08 22:42:21.746177",
+                "image": "image58.jpeg",
+                "workers": 1,
+                "unsafe": 1
+            },
+            {
+                "timestamp": "2026-07-08 22:42:22.105888",
+                "image": "image63.jpg",
+                "workers": 1,
+                "unsafe": 1
+            },
+            {
+                "timestamp": "2026-07-08 22:42:22.481361",
+                "image": "image116.jpg",
+                "workers": 3,
+                "unsafe": 3
+            },
+            {
+                "timestamp": "2026-07-08 22:42:22.833385",
+                "image": "image122.jpeg",
+                "workers": 1,
+                "unsafe": 1
+            },
+            {
+                "timestamp": "2026-07-08 22:42:23.161655",
+                "image": "image140.jpg",
+                "workers": 2,
+                "unsafe": 2
+            },
+            {
+                "timestamp": "2026-07-08 22:42:23.499837",
+                "image": "image149.jpg",
+                "workers": 4,
+                "unsafe": 4
+            },
+            {
+                "timestamp": "2026-07-08 22:42:23.831268",
+                "image": "image150.jpg",
+                "workers": 2,
+                "unsafe": 2
+            },
+            {
+                "timestamp": "2026-07-08 22:42:24.235581",
+                "image": "image160.jpg",
+                "workers": 1,
+                "unsafe": 1
+            }
+        ]
+    },
+    {
+        "timestamp": "2026-07-08 22:43:04.949677",
+        "summary": {
+            "total_images": 6,
+            "total_workers": 6,
+            "safe_workers": 5,
+            "unsafe_workers": 1,
+            "helmet": 0,
+            "vest": 0,
+            "gloves": 1,
+            "boots": 1,
+            "goggles": 1,
+            "compliance": 90.0
+        },
+        "images": [
+            {
+                "timestamp": "2026-07-08 22:43:03.196548",
+                "image": "image271.jpg",
+                "workers": 1,
+                "unsafe": 0
+            },
+            {
+                "timestamp": "2026-07-08 22:43:03.569849",
+                "image": "image287.jpg",
+                "workers": 1,
+                "unsafe": 1
+            },
+            {
+                "timestamp": "2026-07-08 22:43:03.924756",
+                "image": "image296.jpg",
+                "workers": 1,
+                "unsafe": 0
+            },
+            {
+                "timestamp": "2026-07-08 22:43:04.252940",
+                "image": "image393.jpg",
+                "workers": 1,
+                "unsafe": 0
+            },
+            {
+                "timestamp": "2026-07-08 22:43:04.595240",
+                "image": "image401.jpg",
+                "workers": 1,
+                "unsafe": 0
+            },
+            {
+                "timestamp": "2026-07-08 22:43:04.949276",
+                "image": "image423.jpg",
+                "workers": 1,
+                "unsafe": 0
+            }
+        ]
+    },
+    {
+        "timestamp": "2026-07-09 11:42:24.193413",
+        "summary": {
+            "total_images": 1,
+            "total_workers": 1,
+            "safe_workers": 0,
+            "unsafe_workers": 1,
+            "helmet": 0,
+            "vest": 0,
+            "gloves": 1,
+            "boots": 1,
+            "goggles": 1,
+            "compliance": 40.0
+        },
+        "images": [
+            {
+                "timestamp": "2026-07-09 11:42:24.173542",
+                "image": "image122.jpeg",
+                "workers": 1,
+                "unsafe": 1
+            }
+        ]
+    },
+    {
+        "timestamp": "2026-07-09 11:58:40.164386",
+        "summary": {
+            "total_images": 3,
+            "total_workers": 7,
+            "safe_workers": 0,
+            "unsafe_workers": 7,
+            "helmet": 5,
+            "vest": 1,
+            "gloves": 7,
+            "boots": 6,
+            "goggles": 7,
+            "compliance": 25.71
+        },
+        "images": [
+            {
+                "timestamp": "2026-07-09 11:58:39.285832",
+                "image": "image1.jpeg",
+                "workers": 1,
+                "unsafe": 1
+            },
+            {
+                "timestamp": "2026-07-09 11:58:39.722202",
+                "image": "image6.jpeg",
+                "workers": 3,
+                "unsafe": 3
+            },
+            {
+                "timestamp": "2026-07-09 11:58:40.147017",
+                "image": "image10.jpeg",
+                "workers": 3,
+                "unsafe": 3
+            }
+        ]
+    },
+    {
+        "timestamp": "2026-07-10 13:28:38.966119",
+        "summary": {
+            "total_images": 6,
+            "total_workers": 10,
+            "safe_workers": 0,
+            "unsafe_workers": 10,
+            "helmet": 5,
+            "vest": 1,
+            "gloves": 7,
+            "boots": 7,
+            "goggles": 10,
+            "compliance": 40.0
+        },
+        "images": [
+            {
+                "timestamp": "2026-07-10 13:28:37.012813",
+                "image": "image1.jpeg",
+                "workers": 1,
+                "unsafe": 1
+            },
+            {
+                "timestamp": "2026-07-10 13:28:37.416608",
+                "image": "image6.jpeg",
+                "workers": 3,
+                "unsafe": 3
+            },
+            {
+                "timestamp": "2026-07-10 13:28:37.817870",
+                "image": "image10.jpeg",
+                "workers": 3,
+                "unsafe": 3
+            },
+            {
+                "timestamp": "2026-07-10 13:28:38.189913",
+                "image": "image17.jpg",
+                "workers": 1,
+                "unsafe": 1
+            },
+            {
+                "timestamp": "2026-07-10 13:28:38.582220",
+                "image": "image40.jpg",
+                "workers": 1,
+                "unsafe": 1
+            },
+            {
+                "timestamp": "2026-07-10 13:28:38.965697",
+                "image": "image49.jpg",
+                "workers": 1,
+                "unsafe": 1
+            }
+        ]
+    }
+]
