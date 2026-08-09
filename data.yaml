@@ -1,0 +1,13 @@
+train: A:/PPE/data/images/train
+val: A:/PPE/data/images/val
+test: A:/PPE/data/images/test
+
+nc: 6
+
+names:
+  0: helmet
+  1: gloves
+  2: vest
+  3: boots
+  4: goggles
+  5: person
