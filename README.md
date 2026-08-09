@@ -980,25 +980,7 @@ Frontend runs on `http://localhost:5173` (or specified port)
 
 ### Development Workflow
 
-#### 1. **Image Upload Flow** (flowchart)
-
-```mermaid
-flowchart TD
-    U[User Upload (Frontend)] --> POST[POST /api/detect (FastAPI)]
-    POST --> Save[Save to uploads/ folder]
-    Save --> Inference[YOLO Inference (detect.py)]
-    Inference --> BBoxes[Get bounding boxes + confidence scores]
-    BBoxes --> Associate[PPE Association (associate.py)]
-    Associate --> Map[Map each PPE item to nearest worker]
-    Map --> Checker[Violation Checking (violation_checker.py)]
-    Checker --> Report[Generate compliance report]
-    Report --> Annotate[Save annotated image to outputs/]
-    Annotate --> Log[Log to violations.json]
-    Log --> Response[Return JSON response to frontend]
-    Response --> UI[Display results to user]
-```
-
-The mermaid flowchart above visualizes the end-to-end processing pipeline.
+#### 1. **Image Upload Flow**
 
 #### 2. **Detection Pipeline**
 
