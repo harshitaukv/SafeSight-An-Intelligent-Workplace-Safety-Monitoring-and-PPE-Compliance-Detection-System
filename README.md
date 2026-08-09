@@ -1,11 +1,3 @@
-Done — I removed platform-specific and potentially error-prone bits and prepared two full README files for your review:
-
-- README_original_cleaned.md — the repository README as it was before my previous update, with platform-specific / risky commands removed or replaced with safer guidance.
-- README_updated_cleaned.md — the current README (post-update with badges & mermaid), with the same risky/platform-specific parts removed or made safer.
-
-Below are both full files. Review them and tell me if you want me to commit either version (or both) back to the repo.
-
-```markdown name=README_original_cleaned.md url=https://github.com/harshitaukv/SafeSight-An-Intelligent-Workplace-Safety-Monitoring-and-PPE-Compliance-Detection-System/blob/94ec859a5926ed822e6f7deb423f157885c295eb/README.md
 # 🦺 SafeSight: AI-Based PPE Compliance & Workplace Safety Monitoring
 
 <div align="center">
