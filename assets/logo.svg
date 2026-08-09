@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="160" viewBox="0 0 600 160">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0" stop-color="#00C9FF"/>
+      <stop offset="1" stop-color="#92FE9D"/>
+    </linearGradient>
+    <style>
+      .shield{fill:url(#g);stroke:#045de9;stroke-width:4;}
+      .text{font-family:Segoe UI, Roboto, Arial; font-weight:700; fill:#072227}
+      .sub{font-family:Segoe UI, Roboto, Arial; font-size:18px; fill:#05386B}
+    </style>
+  </defs>
+  <g transform="translate(20,10)">
+    <path class="shield" d="M80 0 L160 30 L160 90 C160 130 120 150 80 160 C40 150 0 130 0 90 L0 30 Z"/>
+    <circle cx="80" cy="50" r="20" fill="#ffffff" opacity="0.95"/>
+    <rect x="70" y="70" width="20" height="40" rx="6" fill="#ffffff" opacity="0.95"/>
+    <text x="210" y="66" class="text" font-size="42">SafeSight</text>
+    <text x="210" y="100" class="sub">Intelligent Workplace Safety & PPE Detection</text>
+  </g>
+</svg>
